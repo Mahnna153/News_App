@@ -12,6 +12,7 @@ class WebViewScreen extends StatelessWidget {
       appBar: AppBar(),
       body: WebView(
         initialUrl: url,
+
       ),
     );
   }

@@ -137,7 +137,7 @@ Widget newsItemBuilder(article, context) => InkWell(
                         '${article['title']}',
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
-                        style: Theme.of(context).textTheme.bodyText1,
+                        style: Theme.of(context).textTheme.bodyLarge,
                       ),
                     ),
                     Text(
@@ -202,5 +202,4 @@ Color choseToastColor(ToastStates state) {
   }
   return color;
 }
-
 

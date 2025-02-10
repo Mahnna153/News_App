@@ -29,7 +29,7 @@ class NewsHomeScreen extends StatelessWidget {
                   onPressed: () {
                     // AppCubit.get(context).changeAppThemeMode();
                   },
-                  icon: Icon(Icons.brightness_4_outlined)),
+                  icon: const Icon(Icons.brightness_4_outlined)),
             ],
           ),
           body: cubit.screens[cubit.currentIndex],

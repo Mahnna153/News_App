@@ -34,7 +34,7 @@ ThemeData lightMode = ThemeData(
     backgroundColor: Colors.lightBlue,
   ),
   textTheme: TextTheme(
-    bodyText1: TextStyle(
+    bodyLarge: TextStyle(
       fontSize: 18.0,
       fontWeight: FontWeight.w600,
       color: Colors.black,
@@ -74,7 +74,7 @@ ThemeData darkMode = ThemeData(
     backgroundColor: Colors.lightBlue,
   ),
   textTheme: TextTheme(
-    bodyText1: TextStyle(
+    bodyLarge: TextStyle(
       fontSize: 18.0,
       fontWeight: FontWeight.w600,
       color: Colors.white,

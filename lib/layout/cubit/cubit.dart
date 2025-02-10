@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news/layout/cubit/states.dart';
 
+import '../../modules/business/business_page.dart';
+import '../../modules/science/science_page.dart';
+import '../../modules/sports/sport_page.dart';
 import '../../shared/network/remote/dio_helper.dart';
 
 
@@ -29,12 +32,12 @@ class NewsCubit extends Cubit<NewsStates> {
   ];
 
   List<Widget> screens = [
-    Container(),
-    Container(),
-    Container(),
-    // BusinessScreen(),
-    // ScienceScreen(),
-    // SportScreen(),
+    // Container(),
+    // Container(),
+    // Container(),
+    BusinessScreen(),
+    ScienceScreen(),
+    SportScreen(),
   ];
 
   void bottomNavChange(int index) {
